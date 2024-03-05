@@ -24,12 +24,16 @@ body {
 	font-size: 15px;
 	line-height: 1.5;
 	color: #b7b7b7;
-    background-color: #010101;
-	/* background-image: url('/images/bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; */
+    /* background-color: #010101; */
 	-webkit-font-smoothing: antialiased;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 /*--------- Body End -------*/
 /*---------- Typography Css Start -------*/
