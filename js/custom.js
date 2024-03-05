@@ -176,9 +176,11 @@ Assigned to: ThemeForest
 			AplCss  = {'top':0};
 		}else if(tar == 'contact'){
 			AplCss  = {'left':0};
-		}else if(tar == 'services'){
+		}
+		else if(tar == 'services'){
 			AplCss  = {'bottom':0 , 'top':0};
-		}else if(tar == 'portfolio'){
+		}
+		else if(tar == 'portfolio'){
 			AplCss  = {'right':0};
 		}
 		targetSection.css('display', 'block');
