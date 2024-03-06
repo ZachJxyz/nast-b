@@ -1,10 +1,4 @@
-/*--------------------- Copyright (c) 2022 -----------------------
-[Master Stylesheet]
-
-Project: Portfolio Responsive HTML Template
-Version: 1.0.6
-Assigned to: ThemeForest
--------------------------------------------------------------------
+/* -------------------------------------------------------------------
 
 [Table of contents]
 
@@ -18,20 +12,21 @@ Assigned to: ThemeForest
 8. Footer css Start / .prt_footer_wrapper
 9. Responsive css Start / .prt_counter_box
 -------------------------------------------------------------------*/
-/*--------- Body Strat -------*/
+/*--------- Body -------*/
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	color: #b7b7b7;
-    /* background-color: #010101; */
+    background-color: #010101;
+    /* background-image: url('/images/header/nastb_socialshare.jpg'); */
 	-webkit-font-smoothing: antialiased;
 }
 
 #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
+    position: absolute;
+    right: -250px;
+    /* bottom: 0; */
     min-width: 100%;
     min-height: 100%;
 }
